@@ -10,6 +10,8 @@ class ArticleInitialState extends ArticleState {
   List<Object> get props => [];
 }
 
+
+
 class ArticleLoadingState extends ArticleState {
   @override
   // TODO: implement props

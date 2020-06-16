@@ -9,7 +9,7 @@ class AboutPage extends StatelessWidget {
       ),
       body: Container(
         alignment: Alignment.center,
-        child: Text("Developer : newazkabirtaluk@gmail.com"),
+        child: Text("Developer : example-developer@mail.com"),
       ),
     );
   }

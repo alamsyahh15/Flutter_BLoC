@@ -16,6 +16,7 @@ class ArticleRepositoryImpl implements ArticleRepository {
     if (response.statusCode == 200) {
       var data = json.decode(response.body);
       List<Articles> articles = ApiResultModel.fromJson(data).articles;
+
       return articles;
     } else {
       throw Exception();
